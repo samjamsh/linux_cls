@@ -3,7 +3,7 @@ from sys import stdout, argv, platform
 def parameters():
     def check_os():
         os = platform
-        supported = ["linux", "darwin"]
+        supported = ["linux"]
         if os not in supported: exit("operational system not supported")
 
     check_os()
